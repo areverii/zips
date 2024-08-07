@@ -1,18 +1,19 @@
 {
-  "name": "app",
+  "name": "zips",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A web app to search zip codes and places",
+  "main": "app/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app/app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "ejs": "^3.1.10",
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0"
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mongodb": "^4.1.4"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
